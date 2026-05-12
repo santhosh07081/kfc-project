@@ -1,0 +1,1019 @@
+{
+  "categories": [
+    { "id": 1, "name": "ShaWOWrma Specials", "image": "/BrowseMenu/Home/Shawowrma-home.webp", "showOnHome": true },
+    { "id": 2, "name": "Dunked Range", "image": "/BrowseMenu/Home/Dunked-home.webp", "showOnHome": true },
+    { "id": 3, "name": "Extra Rs. 100 off Menu", "image": "/BrowseMenu/Home/ExtraOff-home.webp", "showOnHome": false },
+    { "id": 4, "name": "Epic Savers", "image": "/BrowseMenu/Home/EpicSaver-home.webp", "showOnHome": true },
+    { "id": 5, "name": "Burgers", "image": "/BrowseMenu/Home/Burger-home.webp", "showOnHome": true },
+    { "id": 6, "name": "Gold Edition", "image": "/BrowseMenu/Home/Gold-home.webp", "showOnHome": false },
+    { "id": 7, "name": "Box Meals", "image": "/BrowseMenu/Home/BoxMeal-home.webp", "showOnHome": true },
+    { "id": 8, "name": "Variety Buckets", "image": "/BrowseMenu/Home/VarietyBucket-home.webp", "showOnHome": true },
+    { "id": 9, "name": "Chicken Buckets", "image": "/BrowseMenu/Home/ChickenBucket-home.webp", "showOnHome": true },
+    { "id": 10, "name": "Snacks", "image": "/BrowseMenu/Home/Snack-home.webp", "showOnHome": true },
+    { "id": 11, "name": "Rice Bowlz", "image": "/BrowseMenu/Home/RiceBowl-home.webp", "showOnHome": true },
+    { "id": 12, "name": "Beverages and Desserts", "image": "/BrowseMenu/Home/Beverage-home.webp", "showOnHome": false }
+  ]
+  ,
+  "products": [
+    {
+      "id": 101,
+      "name": "Shawarma",
+      "categoryId": 1,
+      "price": 168.57,
+      "rating": 4.5,
+      "isVeg": false,
+      "description": "Soft wrap loaded with juicy, flavour-packed shawarma filling & signature sauces",
+      "image": "/BrowseMenu/Menu/Shawowrma/shawarma-101.jpg"
+    },
+    {
+      "id": 102,
+      "name": "Shawarma Pepsi Combo",
+      "categoryId": 1,
+      "price": 208.57,
+      "rating": 4.6,
+      "isVeg": false,
+      "description": "Our juicy shawarma wrap paired with a chilled Pepsi PET",
+      "image": "/BrowseMenu/Menu/Shawowrma/shawarma-102.jpg"
+    },
+    {
+      "id": 103,
+      "name": "Shawarma Regular Meal",
+      "categoryId": 1,
+      "price": 267.62,
+      "rating": 4.7,
+      "isVeg": false,
+      "description": "Shawarma served with med fries and a refreshing Pepsi for a complete meal.",
+      "image": "/BrowseMenu/Menu/Shawowrma/shawarma-103.jpg"
+    },
+    {
+      "id": 104,
+      "name": "Shawarma Snackbox",
+      "categoryId": 1,
+      "price": 299.05,
+      "rating": 4.5,
+      "isVeg": false,
+      "description": "Shawarma with popcorn chicken and a Pepsi PET - perfect for snack cravings.",
+      "image": "/BrowseMenu/Menu/Shawowrma/shawarma-104.jpg"
+    },
+    {
+      "id": 105,
+      "name": "Shawarma Box Meal",
+      "categoryId": 1,
+      "price": 299.05,
+      "rating": 4.8,
+      "isVeg": false,
+      "description": "Shawarma served with 2 hot wings, med fries and Pepsi PET for a hearty feast.",
+      "image": "/BrowseMenu/Menu/Shawowrma/shawarma-105.jpg"
+    },
+    {
+      "id": 106,
+      "name": "Shawarma Big Box",
+      "categoryId": 1,
+      "price": 328.57,
+      "rating": 4.9,
+      "isVeg": false,
+      "description": "Loaded box with shawarma, 2 hot wings, 2 strips & Pepsi PET- big on flavour & satisfaction",
+      "image": "/BrowseMenu/Menu/Shawowrma/shawarma-106.jpg"
+    },
+    {
+      "id": 201,
+      "name": "Dunked Meal Box",
+      "categoryId": 2,
+      "price": 349.00,
+      "rating": 4.6,
+      "isVeg": false,
+      "description": "BBQ Zinger Burger, 2 Hot Wings, Reg Fries & Reg Pepsi",
+      "image": "/BrowseMenu/Menu/DunkedRange/ducked-201.jpg"
+    },
+    {
+      "id": 301,
+      "name": "Indian Tandoori Zinger meal",
+      "categoryId": 3,
+      "price": 287.62,
+      "rating": 4.5,
+      "isVeg": false,
+      "description": "Grab the Tandoori Zinger with Fries & Pepsi.",
+      "image": "/BrowseMenu/Menu/Extra/extra-301.webp"
+    },
+    {
+      "id": 302,
+      "name": "2pc Hot & Crispy with Dip",
+      "categoryId": 3,
+      "price": 200.00,
+      "rating": 4.4,
+      "isVeg": false,
+      "description": "Relish 2 pc Hot & Crispy & dip",
+      "image": "/BrowseMenu/Menu/Extra/extra-302.jpg"
+    },
+    {
+      "id": 303,
+      "name": "Classic Zinger Box Meal",
+      "categoryId": 3,
+      "price": 299.05,
+      "rating": 4.8,
+      "isVeg": false,
+      "description": "1 Classic Zinger, 2 Hot Wings, Fries,1 Pepsi 475ml",
+      "image": "/BrowseMenu/Menu/Extra/extra-303.webp"
+    },
+    {
+      "id": 304,
+      "name": "Gold Edition - Chicken Zinger, Fries & Pepsi Meal",
+      "categoryId": 3,
+      "price": 347.62,
+      "rating": 4.7,
+      "isVeg": false,
+      "description": "Chicken Zinger with Reg Fries & reg Pepsi",
+      "image": "/BrowseMenu/Menu/Extra/extra-304.jpg"
+    },
+    {
+      "id": 305,
+      "name": "5 Pc HC Bucket",
+      "categoryId": 3,
+      "price": 428.57,
+      "rating": 4.6,
+      "isVeg": false,
+      "description": "Relish 5 piece hot & crispy",
+      "image": "/BrowseMenu/Menu/Extra/extra-305.jpg"
+    },
+    {
+      "id": 306,
+      "name": "Extra Large Popcorn",
+      "categoryId": 3,
+      "price": 428.57,
+      "rating": 4.5,
+      "isVeg": false,
+      "description": "Xtra Large Pack of Chicken Popcorn seasoned with the Chili Lime flavour.",
+      "image": "/BrowseMenu/Menu/Extra/extra-306.jpg"
+    },
+    {
+      "id": 307,
+      "name": "Smoky Red Grilled Chicken - 5 pc",
+      "categoryId": 3,
+      "price": 428.57,
+      "rating": 4.8,
+      "isVeg": false,
+      "description": "Grab 5 pc Smoky Red Chicken - grilled to perfection",
+      "image": "/BrowseMenu/Menu/Extra/extra-307.webp"
+    },
+    {
+      "id": 308,
+      "name": "Dips Bucket (10 Pcs Strip + 2 Dips - Eggless Mayo)",
+      "categoryId": 3,
+      "price": 468.57,
+      "rating": 4.7,
+      "isVeg": false,
+      "description": "10 Pcs Strip Peri Peri Strips Bucket with 2 Dips",
+      "image": "/BrowseMenu/Menu/Extra/extra-308.jpg"
+    },
+    {
+      "id": 309,
+      "name": "All in One Bucket",
+      "categoryId": 3,
+      "price": 519.05,
+      "rating": 4.9,
+      "isVeg": false,
+      "description": "2 Wings, 2Strip, 1 HC, 1 Leg pc or HC,1 Zinger Fillet, 3 Dips, 2Pepsi.",
+      "image": "/BrowseMenu/Menu/Extra/extra-309.webp"
+    },
+    {
+      "id": 310,
+      "name": "Big 8 - Chicken Bucket",
+      "categoryId": 3,
+      "price": 599.05,
+      "rating": 4.8,
+      "isVeg": false,
+      "description": "2 Hot & Cripsy, 2 Strips + 4 Smoky Red.",
+      "image": "/BrowseMenu/Menu/Extra/extra-310.webp"
+    },
+    {
+      "id": 311,
+      "name": "Hot & Crispy Chicken - 8 pcs",
+      "categoryId": 3,
+      "price": 648.57,
+      "rating": 4.9,
+      "isVeg": false,
+      "description": "8 pc signature Hot & cripsy chicken.",
+      "image": "/BrowseMenu/Menu/Extra/extra-311.webp"
+    },
+    {
+      "id": 312,
+      "name": "Ultimate Savings Bucket",
+      "categoryId": 3,
+      "price": 659.05,
+      "rating": 4.9,
+      "isVeg": false,
+      "description": "43% Off on 4 pc Hot & Crispy, 6 Hot Wings, 4pc Peri Peri Strips, 3 Pepsi & 2 dips",
+      "image": "/BrowseMenu/Menu/Extra/extra-312.webp"
+    },
+    {
+      "id": 401,
+      "name": "EPIC SAVERS 9 Pcs for 299",
+      "categoryId": 4,
+      "price": 299.05,
+      "rating": 4.7,
+      "isVeg": false,
+      "description": "Save 30% on 2 Hot Wings with 7 Strips",
+      "image": "/BrowseMenu/Menu/EpicSavers/epicsaver-401.jpg"
+    },
+    {
+      "id": 402,
+      "name": "EPIC SAVERS 9 Pcs for 499 Meal",
+      "categoryId": 4,
+      "price": 499.05,
+      "rating": 4.8,
+      "isVeg": false,
+      "description": "Save 29% on 2 Hot Wings with 7 Strips, 2 Reg. Fries and 2 Reg Pepsi",
+      "image": "/BrowseMenu/Menu/EpicSavers/epicsaver-402.jpg"
+    },
+    {
+      "id": 403,
+      "name": "All in One Bucket",
+      "categoryId": 4,
+      "price": 519.05,
+      "rating": 4.9,
+      "isVeg": false,
+      "description": "2 Wings, 2Strip, 1 HC, 1 Leg pc or HC,1 Zinger Fillet, 3 Dips, 2Pepsi.",
+      "image": "/BrowseMenu/Menu/EpicSavers/epicsaver-403.webp"
+    },
+    {
+      "id": 404,
+      "name": "Ultimate Savings Bucket",
+      "categoryId": 4,
+      "price": 659.05,
+      "rating": 4.9,
+      "isVeg": false,
+      "description": "43% Off on 4 pc Hot & Crispy, 6 Hot Wings, 4pc Peri Peri Strips, 3 Pepsi & 2 dips",
+      "image": "/BrowseMenu/Menu/EpicSavers/epicsaver-404.webp"
+    },
+    {
+      "id": 501,
+      "name": "Double Down Burger",
+      "categoryId": 5,
+      "price": 228.57,
+      "rating": 4.6,
+      "isVeg": false,
+      "description": "Relish the delicious Double Down burger now. Limited period offer!",
+      "image": "/BrowseMenu/Menu/Burgers/burger-501.jpg"
+    },
+    {
+      "id": 502,
+      "name": "Chana Burger",
+      "categoryId": 5,
+      "price": 69.05,
+      "rating": 4.0,
+      "isVeg": true,
+      "description": "Try our all new Chana Burger!",
+      "image": "/BrowseMenu/Menu/Burgers/burger-502.jpg"
+    },
+    {
+      "id": 503,
+      "name": "Double Down Burger Meal",
+      "categoryId": 5,
+      "price": 299.05,
+      "rating": 4.7,
+      "isVeg": false,
+      "description": "Save 28% & Relish the delicious Double Down burger with reg. fries and Pepsi PET",
+      "image": "/BrowseMenu/Menu/Burgers/burger-503.jpg"
+    },
+    {
+      "id": 504,
+      "name": "Chana Burger + Reg Pepsi",
+      "categoryId": 5,
+      "price": 89.05,
+      "rating": 4.2,
+      "isVeg": true,
+      "description": "Try our all new Chana Burger & Pepsi Combo!",
+      "image": "/BrowseMenu/Menu/Burgers/burger-504.jpg"
+    },
+    {
+      "id": 505,
+      "name": "Spicy Zinger Burger",
+      "categoryId": 5,
+      "price": 199.05,
+      "rating": 4.8,
+      "isVeg": false,
+      "description": "New Caribbean Spicy Zinger Burger with Spicy Bun & Spicy chilli sauce",
+      "image": "/BrowseMenu/Menu/Burgers/burger-505.webp"
+    },
+    {
+      "id": 506,
+      "name": "Chana Burger + Reg Fries + Reg Pepsi",
+      "categoryId": 5,
+      "price": 139.05,
+      "rating": 4.3,
+      "isVeg": true,
+      "description": "Try our all new Chana Burger, Fries & Pepsi Combo!",
+      "image": "/BrowseMenu/Menu/Burgers/burger-506.jpg"
+    },
+    {
+      "id": 507,
+      "name": "Caribbean Spicy Zinger Meal",
+      "categoryId": 5,
+      "price": 298.10,
+      "rating": 4.7,
+      "isVeg": false,
+      "description": "Try the Caribbean Spicy Zinger Meal during our Burger Fest!",
+      "image": "/BrowseMenu/Menu/Burgers/burger-507.webp"
+    },
+    {
+      "id": 508,
+      "name": "Zinger Pro Burger",
+      "categoryId": 5,
+      "price": 228.57,
+      "rating": 4.6,
+      "isVeg": false,
+      "description": "New premium zinger with crunchy zinger fillet,cheese,lettuce,tomatoes,sauce in sesame bun!",
+      "image": "/BrowseMenu/Menu/Burgers/burger-508.webp"
+    },
+    {
+      "id": 509,
+      "name": "Mexican Zinger Pro Meal",
+      "categoryId": 5,
+      "price": 327.62,
+      "rating": 4.8,
+      "isVeg": false,
+      "description": "Try the Mexican Zinger Pro Meal during our Burger Fest!",
+      "image": "/BrowseMenu/Menu/Burgers/burger-509.webp"
+    },
+    {
+      "id": 510,
+      "name": "Chicken Zinger Burger - Tandoori",
+      "categoryId": 5,
+      "price": 188.57,
+      "rating": 4.6,
+      "isVeg": false,
+      "description": "Chicken zinger with a delicious Indian Tandoori flavour sauce and Mayo",
+      "image": "/BrowseMenu/Menu/Burgers/burger-510.webp"
+    },
+    {
+      "id": 511,
+      "name": "Chicken Zinger Burger - Tandoori with Cheese",
+      "categoryId": 5,
+      "price": 213.57,
+      "rating": 4.7,
+      "isVeg": false,
+      "description": "Chicken zinger with delicious tandoori sauce & cheese slice",
+      "image": "/BrowseMenu/Menu/Burgers/burger-511.webp"
+    },
+    {
+      "id": 512,
+      "name": "Chicken Zinger Burger - Classic",
+      "categoryId": 5,
+      "price": 179.05,
+      "rating": 4.8,
+      "isVeg": false,
+      "description": "Signature burger made with a crunchy chicken fillet, veggies & a delicious mayo sauce",
+      "image": "/BrowseMenu/Menu/Burgers/burger-512.webp"
+    },
+    {
+      "id": 513,
+      "name": "Chicken Zinger Burger - Classic with Cheese",
+      "categoryId": 5,
+      "price": 203.81,
+      "rating": 4.9,
+      "isVeg": false,
+      "description": "Signature burger with a crunchy chicken fillet, cheese slice, veggies & a delicious mayo sauce",
+      "image": "/BrowseMenu/Menu/Burgers/burger-513.webp"
+    },
+    {
+      "id": 514,
+      "name": "Zinger, Fries & Pepsi combo",
+      "categoryId": 5,
+      "price": 278.10,
+      "rating": 4.7,
+      "isVeg": false,
+      "description": "Go classic with Classic Zinger, 2 Hot Wings, Fries & Pepsi",
+      "image": "/BrowseMenu/Menu/Burgers/burger-514.webp"
+    },
+    {
+      "id": 515,
+      "name": "Paneer Zinger Burger",
+      "categoryId": 5,
+      "price": 189.52,
+      "rating": 4.5,
+      "isVeg": true,
+      "description": "It's Back! Crunchy Indian Paneer Patty Burger with tangy sauce and Veggies",
+      "image": "/BrowseMenu/Menu/Burgers/burger-515.webp"
+    },
+    {
+      "id": 516,
+      "name": "Indian Paneer Zinger Meal",
+      "categoryId": 5,
+      "price": 288.57,
+      "rating": 4.6,
+      "isVeg": true,
+      "description": "Paneer Zinger is back! Try the Indian Paneer Zinger Meal during our Burger Fest!",
+      "image": "/BrowseMenu/Menu/Burgers/burger-516.webp"
+    },
+    {
+      "id": 517,
+      "name": "Spicy Chicken Krisper + Reg Popcorn + Reg Pepsi",
+      "categoryId": 5,
+      "price": 248.57,
+      "rating": 4.5,
+      "isVeg": false,
+      "description": "Enjoy Classic Chicken Krisper with Reg Popcorn & Reg Pepsi",
+      "image": "/BrowseMenu/Menu/Burgers/burger-517.jpg"
+    },
+    {
+      "id": 518,
+      "name": "Longer Chicken Burger",
+      "categoryId": 5,
+      "price": 88.57,
+      "rating": 4.3,
+      "isVeg": false,
+      "description": "The really long burger filled with boneless strip, onion and dynamite mayo sauce",
+      "image": "/BrowseMenu/Menu/Burgers/burger-518.webp"
+    },
+    {
+      "id": 519,
+      "name": "Longer Chicken Burger Meal",
+      "categoryId": 5,
+      "price": 187.62,
+      "rating": 4.5,
+      "isVeg": false,
+      "description": "Longer Chicken Burger Meal",
+      "image": "/BrowseMenu/Menu/Burgers/burger-519.webp"
+    },
+    {
+      "id": 520,
+      "name": "Spicy Chicken Krisper",
+      "categoryId": 5,
+      "price": 99.05,
+      "rating": 4.4,
+      "isVeg": false,
+      "description": "Enjoy this delicious value burger featuring delicious spicy sauces and two chicken strips",
+      "image": "/BrowseMenu/Menu/Burgers/burger-520.jpg"
+    },
+    {
+      "id": 521,
+      "name": "Classic Chicken Krisper",
+      "categoryId": 5,
+      "price": 99.05,
+      "rating": 4.4,
+      "isVeg": false,
+      "description": "Enjoy this delicious value burger featuring delicious sauces and two chicken strips",
+      "image": "/BrowseMenu/Menu/Burgers/burger-521.jpg"
+    },
+    {
+      "id": 522,
+      "name": "Longer Veg Burger",
+      "categoryId": 5,
+      "price": 88.57,
+      "rating": 4.1,
+      "isVeg": true,
+      "description": "The really long burger filled with veg strip, onion and dynamite mayo sauce",
+      "image": "/BrowseMenu/Menu/Burgers/burger-522.webp"
+    },
+    {
+      "id": 523,
+      "name": "Veg Zinger Burger",
+      "categoryId": 5,
+      "price": 168.57,
+      "rating": 4.5,
+      "isVeg": true,
+      "description": "Signature veg burger with crispy patties, veggies & a tangy sauce",
+      "image": "/BrowseMenu/Menu/Burgers/burger-523.webp"
+    },
+    {
+      "id": 524,
+      "name": "Veg Zinger Burger with Cheese",
+      "categoryId": 5,
+      "price": 193.57,
+      "rating": 4.7,
+      "isVeg": true,
+      "description": "Signature veg burger with crispy patties, cheese slice, veggies & a tangy sauce",
+      "image": "/BrowseMenu/Menu/Burgers/burger-524.webp"
+    },
+    {
+      "id": 525,
+      "name": "Veg Zinger, Fries & Pepsi combo",
+      "categoryId": 5,
+      "price": 267.62,
+      "rating": 4.6,
+      "isVeg": true,
+      "description": "Veg Zinger, Fries & Pepsi combo",
+      "image": "/BrowseMenu/Menu/Burgers/burger-525.webp"
+    },
+    {
+      "id": 601,
+      "name": "Gold Edition Chicken Zinger & Fries",
+      "categoryId": 6,
+      "price": 299.05,
+      "rating": 4.6,
+      "isVeg": false,
+      "description": "Enjoy New Cheesy Chicken Zinger & Reg Fries",
+      "image": "/BrowseMenu/Menu/Gold/gold-601.jpg"
+    },
+    {
+      "id": 602,
+      "name": "Gold Edition - Chicken Zinger, Fries & Pepsi Meal",
+      "categoryId": 6,
+      "price": 347.62,
+      "rating": 4.7,
+      "isVeg": false,
+      "description": "Chicken Zinger with Reg Fries & reg Pepsi",
+      "image": "/BrowseMenu/Menu/Gold/gold-602.jpg"
+    },
+    {
+      "id": 603,
+      "name": "Gold Edition 3pc Boneless Strips",
+      "categoryId": 6,
+      "price": 208.57,
+      "rating": 4.5,
+      "isVeg": false,
+      "description": "Cheesy 3 Pc Boneless Strips",
+      "image": "/BrowseMenu/Menu/Gold/gold-603.jpg"
+    },
+    {
+      "id": 604,
+      "name": "Gold Edition Regular Fries",
+      "categoryId": 6,
+      "price": 128.57,
+      "rating": 4.3,
+      "isVeg": true,
+      "description": "Cheesy Reg Fries",
+      "image": "/BrowseMenu/Menu/Gold/gold-604.jpg"
+    },
+    {
+      "id": 605,
+      "name": "Gold Edition Veg Zinger",
+      "categoryId": 6,
+      "price": 208.57,
+      "rating": 4.4,
+      "isVeg": true,
+      "description": "Cheesy Veg Zinger",
+      "image": "/BrowseMenu/Menu/Gold/gold-605.jpg"
+    },
+    {
+      "id": 606,
+      "name": "Gold Edition Veg Zinger, Fries & Pepsi Meal",
+      "categoryId": 6,
+      "price": 307.62,
+      "rating": 4.5,
+      "isVeg": true,
+      "description": "Cheesy Veg Zinger with reg Fries & Reg Pepsi",
+      "image": "/BrowseMenu/Menu/Gold/gold-606.jpg"
+    },
+    {
+      "id": 701,
+      "name": "All Chicken Box Meal",
+      "categoryId": 7,
+      "price": 179.05,
+      "rating": 4.7,
+      "isVeg": false,
+      "description": "All in one meal box with 1pc Hot & Crispy,2 Peri Peri Strips & Pepsi.",
+      "image": "/BrowseMenu/Menu/BoxMeals/boxmeal-701.webp"
+    },
+    {
+      "id": 702,
+      "name": "Classic Zinger Box Meal",
+      "categoryId": 7,
+      "price": 299.05,
+      "rating": 4.8,
+      "isVeg": false,
+      "description": "1 Classic Zinger, 2 Hot Wings, Fries,1 Pepsi 475ml",
+      "image": "/BrowseMenu/Menu/BoxMeals/boxmeal-702.webp"
+    },
+    {
+      "id": 703,
+      "name": "Tandoori Zinger Box Meal",
+      "categoryId": 7,
+      "price": 319.05,
+      "rating": 4.8,
+      "isVeg": false,
+      "description": "Flavorful Box Meal with Tandoori Zinger ,2 Hot Wings , Fries & Pepsi",
+      "image": "/BrowseMenu/Menu/BoxMeals/boxmeal-703.webp"
+    },
+    {
+      "id": 801,
+      "name": "All in One Bucket",
+      "categoryId": 8,
+      "price": 519.05,
+      "rating": 4.9,
+      "isVeg": false,
+      "description": "2 Wings, 2Strip, 1 HC, 1 Leg pc or HC,1 Zinger Fillet, 3 Dips, 2Pepsi.",
+      "image": "/BrowseMenu/Menu/VarietyBuckets/varietybucket-801.webp"
+    },
+    {
+      "id": 802,
+      "name": "EPIC SAVERS 9 Pcs for 299",
+      "categoryId": 8,
+      "price": 299.05,
+      "rating": 4.6,
+      "isVeg": false,
+      "description": "Save 30% on 2 Hot Wings with 7 Strips",
+      "image": "/BrowseMenu/Menu/VarietyBuckets/varietybucket-802.jpg"
+    },
+    {
+      "id": 803,
+      "name": "Ultimate Savings Bucket",
+      "categoryId": 8,
+      "price": 659.05,
+      "rating": 4.9,
+      "isVeg": false,
+      "description": "43% Off on 4 pc Hot & Crispy, 6 Hot Wings, 4pc Peri Peri Strips, 3 Pepsi & 2 dips",
+      "image": "/BrowseMenu/Menu/VarietyBuckets/varietybucket-803.webp"
+    },
+    {
+      "id": 804,
+      "name": "Big 8 with 2 Pepsi",
+      "categoryId": 8,
+      "price": 679.05,
+      "rating": 4.8,
+      "isVeg": false,
+      "description": "2 Hot & Cripsy, 2 Strips + 4 Smoky Red + 2 Pepsi",
+      "image": "/BrowseMenu/Menu/VarietyBuckets/varietybucket-804.webp"
+    },
+    {
+      "id": 901,
+      "name": "Dips Bucket (10 Pcs Strip + 2 Dips - Eggless Mayo)",
+      "categoryId": 9,
+      "price": 468.57,
+      "rating": 4.6,
+      "isVeg": false,
+      "description": "10 Pcs Strip Peri Peri Strips Bucket with 2 Dips",
+      "image": "/BrowseMenu/Menu/ChickenBuckets/chickenbucket-901.jpg"
+    },
+    {
+      "id": 902,
+      "name": "Hot & Crispy Chicken - 8 pcs",
+      "categoryId": 9,
+      "price": 648.57,
+      "rating": 4.9,
+      "isVeg": false,
+      "description": "8 pc signature Hot & cripsy chicken.",
+      "image": "/BrowseMenu/Menu/ChickenBuckets/chickenbucket-902.webp"
+    },
+    {
+      "id": 903,
+      "name": "Hot & Crispy Chicken -6pc",
+      "categoryId": 9,
+      "price": 539.05,
+      "rating": 4.8,
+      "isVeg": false,
+      "description": "6 pc signature Hot & crispy chicken",
+      "image": "/BrowseMenu/Menu/ChickenBuckets/chickenbucket-903.webp"
+    },
+    {
+      "id": 904,
+      "name": "Boneless + Hot & Crispy Meal for 2",
+      "categoryId": 9,
+      "price": 399.05,
+      "rating": 4.7,
+      "isVeg": false,
+      "description": "2 PC hot & Crispy, Reg Popcorn with 2 Reg Pepsi",
+      "image": "/BrowseMenu/Menu/ChickenBuckets/chickenbucket-904.jpg"
+    },
+    {
+      "id": 905,
+      "name": "Smoky Red Grilled Chicken - 5 pc",
+      "categoryId": 9,
+      "price": 428.57,
+      "rating": 4.6,
+      "isVeg": false,
+      "description": "Grab 5 pc Smoky Red Chicken - grilled to perfection",
+      "image": "/BrowseMenu/Menu/ChickenBuckets/chickenbucket-905.webp"
+    },
+    {
+      "id": 1001,
+      "name": "Double Fries",
+      "categoryId": 10,
+      "price": 99.05,
+      "rating": 4.3,
+      "isVeg": true,
+      "description": "Double Fries",
+      "image": "/BrowseMenu/Menu/Snacks/snacks-1001.jpg"
+    },
+    {
+      "id": 1002,
+      "name": "Fries + Pepsi",
+      "categoryId": 10,
+      "price": 99.05,
+      "rating": 4.4,
+      "isVeg": true,
+      "description": "Add Fries & Pepsi to any meal.",
+      "image": "/BrowseMenu/Menu/Snacks/snacks-1002.webp"
+    },
+    {
+      "id": 1003,
+      "name": "Chicken Popcorn - Regular",
+      "categoryId": 10,
+      "price": 99.05,
+      "rating": 4.5,
+      "isVeg": false,
+      "description": "Signature bite-sized boneless chicken, with special spices",
+      "image": "/BrowseMenu/Menu/Snacks/snacks-1003.webp"
+    },
+    {
+      "id": 1004,
+      "name": "Chicken Popcorn - Medium",
+      "categoryId": 10,
+      "price": 139.05,
+      "rating": 4.6,
+      "isVeg": false,
+      "description": "Signature bite-sized boneless chicken, with special spices in Medium Size",
+      "image": "/BrowseMenu/Menu/Snacks/snacks-1004.webp"
+    },
+    {
+      "id": 1005,
+      "name": "Chicken Popcorn - Large",
+      "categoryId": 10,
+      "price": 199.05,
+      "rating": 4.7,
+      "isVeg": false,
+      "description": "Signature bite-sized boneless chicken, with special spices in Large Size",
+      "image": "/BrowseMenu/Menu/Snacks/snacks-1005.webp"
+    },
+    {
+      "id": 1006,
+      "name": "4pc Hot wings",
+      "categoryId": 10,
+      "price": 148.57,
+      "rating": 4.6,
+      "isVeg": false,
+      "description": "Snack on the 4 pc Chicken Hot Wings Snack with your KFC Meal.",
+      "image": "/BrowseMenu/Menu/Snacks/snacks-1006.webp"
+    },
+    {
+      "id": 1007,
+      "name": "Peri Peri chicken strips - 3 pc",
+      "categoryId": 10,
+      "price": 148.57,
+      "rating": 4.5,
+      "isVeg": false,
+      "description": "3 Pieces Spicy Peri Peri chicken boneless strips",
+      "image": "/BrowseMenu/Menu/Snacks/snacks-1007.webp"
+    },
+    {
+      "id": 1008,
+      "name": "Hot & Crispy Chicken-1pc",
+      "categoryId": 10,
+      "price": 99.05,
+      "rating": 4.5,
+      "isVeg": false,
+      "description": "Signature Hot & crispy chicken",
+      "image": "/BrowseMenu/Menu/Snacks/snacks-1008.webp"
+    },
+    {
+      "id": 1009,
+      "name": "Hot & Crispy Chicken -2pc",
+      "categoryId": 10,
+      "price": 184.76,
+      "rating": 4.6,
+      "isVeg": false,
+      "description": "Signature Hot & crispy chicken",
+      "image": "/BrowseMenu/Menu/Snacks/snacks-1009.webp"
+    },
+    {
+      "id": 1010,
+      "name": "Regular Fries",
+      "categoryId": 10,
+      "price": 68.57,
+      "rating": 4.3,
+      "isVeg": true,
+      "description": "Regular size Fries.",
+      "image": "/BrowseMenu/Menu/Snacks/snacks-1010.webp"
+    },
+    {
+      "id": 1011,
+      "name": "Korean Tangy Chicken Roll",
+      "categoryId": 10,
+      "price": 119.05,
+      "rating": 4.6,
+      "isVeg": false,
+      "description": "Delicious new roll featuring tangy Korean kimchi, vegetables and crunchy chicken strips",
+      "image": "/BrowseMenu/Menu/Snacks/snacks-1011.jpg"
+    },
+    {
+      "id": 1012,
+      "name": "Indian Tandoori Chicken Roll",
+      "categoryId": 10,
+      "price": 99.05,
+      "rating": 4.7,
+      "isVeg": false,
+      "description": "Flavorful roll made with flaky lachha paratha, perfectly fried chicken strips in rich and creamy tandoori sauce",
+      "image": "/BrowseMenu/Menu/Snacks/snacks-1012.jpg"
+    },
+    {
+      "id": 1013,
+      "name": "Dynamite Spicy Flavour Mayo Dip",
+      "categoryId": 10,
+      "price": 28.57,
+      "rating": 4.0,
+      "isVeg": true,
+      "description": "Try KFC Signature Dip.",
+      "image": "/BrowseMenu/Menu/Snacks/snacks-1013.webp"
+    },
+    {
+      "id": 1101,
+      "name": "HC Rice Bowlz Reg Pepsi",
+      "categoryId": 11,
+      "price": 239.05,
+      "rating": 4.6,
+      "isVeg": false,
+      "description": "Get this deal of Classic Chicken Rice Bowlz with Pepsi.",
+      "image": "/BrowseMenu/Menu/RiceBowlz/rice-1101.webp"
+    },
+    {
+      "id": 1102,
+      "name": "PC Rice Bowlz Reg Pepsi",
+      "categoryId": 11,
+      "price": 239.05,
+      "rating": 4.7,
+      "isVeg": false,
+      "description": "Get this deal of Popcorn Chicken Rice Bowlz with Pepsi.",
+      "image": "/BrowseMenu/Menu/RiceBowlz/rice-1102.webp"
+    },
+    {
+      "id": 1103,
+      "name": "HC Rice Bowlz",
+      "categoryId": 11,
+      "price": 199.05,
+      "rating": 4.5,
+      "isVeg": false,
+      "description": "Aromatic Hot & Crispy Chicken rice bowl mixed with spicy gravy",
+      "image": "/BrowseMenu/Menu/RiceBowlz/rice-1103.webp"
+    },
+    {
+      "id": 1104,
+      "name": "PC Rice Bowlz",
+      "categoryId": 11,
+      "price": 199.05,
+      "rating": 4.8,
+      "isVeg": false,
+      "description": "Aromatic Poprcorn Chicken rice bowl mixed with spicy gravy",
+      "image": "/BrowseMenu/Menu/RiceBowlz/rice-1104.webp"
+    },
+    {
+      "id": 1105,
+      "name": "Veg Rice Bowlz Reg Pepsi",
+      "categoryId": 11,
+      "price": 208.57,
+      "rating": 4.4,
+      "isVeg": true,
+      "description": "Get this deal of Veg Rice Bowlz with Pepsi.",
+      "image": "/BrowseMenu/Menu/RiceBowlz/rice-1105.jpg"
+    },
+    {
+      "id": 1106,
+      "name": "Plain Rice Bowl",
+      "categoryId": 11,
+      "price": 128.57,
+      "rating": 4.0,
+      "isVeg": true,
+      "description": "New Plain Rice Bowlz",
+      "image": "/BrowseMenu/Menu/RiceBowlz/rice-1106.webp"
+    },
+    {
+      "id": 1201,
+      "name": "Chocolate Lava Cake",
+      "categoryId": 12,
+      "price": 99.05,
+      "rating": 4.9,
+      "isVeg": true,
+      "description": "New Soft Chocolate cake with a gooey center- perfect chocolaty end to every meal",
+      "image": "/BrowseMenu/Menu/Beverages/beverage-1201.webp"
+    },
+    {
+      "id": 1202,
+      "name": "Pepsi Regular",
+      "categoryId": 12,
+      "price": 68.57,
+      "rating": 4.2,
+      "isVeg": true,
+      "description": "Grab a Regular Pepsi with your favourite KFC Chicken.",
+      "image": "/BrowseMenu/Menu/Beverages/beverage-1202.webp"
+    },
+    {
+      "id": 1203,
+      "name": "7 Up Regular",
+      "categoryId": 12,
+      "price": 68.57,
+      "rating": 4.1,
+      "isVeg": true,
+      "description": "Grab a Regular 7UP with your favourite KFC Chicken.",
+      "image": "/BrowseMenu/Menu/Beverages/beverage-1203.jpg"
+    },
+    {
+      "id": 1204,
+      "name": "Mirinda Regular",
+      "categoryId": 12,
+      "price": 68.57,
+      "rating": 4.1,
+      "isVeg": true,
+      "description": "Grab a Regular Mirinda with your favourite KFC Chicken.",
+      "image": "/BrowseMenu/Menu/Beverages/beverage-1204.jpg"
+    },
+    {
+      "id": 1205,
+      "name": "Cappucino coffee",
+      "categoryId": 12,
+      "price": 99.05,
+      "rating": 4.5,
+      "isVeg": true,
+      "description": "Cappucino coffee",
+      "image": "/BrowseMenu/Menu/Beverages/beverage-1205.webp"
+    },
+    {
+      "id": 1206,
+      "name": "RedBull Energy Drink",
+      "categoryId": 12,
+      "price": 180.95,
+      "rating": 4.4,
+      "isVeg": true,
+      "description": "Grab Red Bull energy drink with your favourite KFC Chicken",
+      "image": "/BrowseMenu/Menu/Beverages/beverage-1206.jpg"
+    }
+  ]
+  ,
+  "offers": [
+    {
+      "id": 1,
+      "title": "FREE CLASSIC ZINGER",
+      "minOrder": 499,
+      "imgSrc": "/Offers/offer-1.jpg",
+      "validUntil": "31/12/28",
+      "discount": 199, 
+      "terms": [
+        "Applicable for signed in user only",
+        "Applicable for minimum cart value of 499",
+        "Applicable for first order only",
+        "Applicable for web and app only",
+        "Not valid with other coupons or offers",
+        "KFC reserves its right to withdraw the offer at any time",
+        "For selected stores",
+        "Valid on DITA"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "RS 75 OFF",
+      "minOrder": 599,
+      "imgSrc": "/Offers/offer-2.jpg",
+      "validUntil": "31/12/28",
+      "discount": 75,
+      "terms": [
+        "Cart value should be more than Rs.599",
+        "Valid on DITA",
+        "Offer can't be combined with any other offer",
+        "Valid on KFC app only. KFC reserves its right to withdraw the offer at any time",
+        "Applicable to signed in users",
+        "Applicable on select stores"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "UPTO RS 100 OFF",
+      "minOrder": 699,
+      "imgSrc": "/Offers/offer-3.jpeg",
+      "validUntil": "31/12/28",
+      "discount": 100,
+      "terms": [
+        "Valid on KFC Web & App",
+        "Applicable on 4th order onwards for signed in user",
+        "Applicable for Minimum cart value of Rs 699 or more",
+        "Applicable to signed in user",
+        "Offer can't be combined with any other offer",
+        "Applicable on select stores",
+        "KFC reserves its right to withdraw the offer at any time"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "2 PC HOT & CRISPY CHICKEN @ RS 99",
+      "minOrder": 499,
+      "imgSrc": "/Offers/offer-4.jpeg",
+      "validUntil": "31/12/28",
+      "discount": 100,
+      "terms": [
+        "Applicable for web and app only",
+        "Not valid with other offers or coupons",
+        "Applicable for minimum cart value of 499 or more",
+        "Applicable for signed in user only",
+        "Applicable for second and third order only",
+        "Applicable on select stores",
+        "Valid on DITA"
+      ]
+      
+    },
+    {
+      "id": 5,
+      "title": "FREE VEG ZINGER",
+      "minOrder": 499,
+      "imgSrc": "/Offers/offer-5.jpg",
+      "validUntil": "31/12/28",
+      "discount": 179,
+      "terms": [
+        "Applicable for signed in user only",
+        "Applicable for first order only",
+        "Applicable for minimum cart value of Rs.499",
+        "Not valid with other offers or coupons",
+        "Applicable for Web and App only",
+        "KFC reserves its right to withdraw the offer at any time",
+        "For selected stores",
+        "Valid on DITA"
+      ]
+    }
+  ]
+}

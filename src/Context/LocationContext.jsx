@@ -1,12 +1,12 @@
 // LocationContext.jsx
-import React, { createContext, useState, useEffect } from 'react';
+import React, { createContext, useState } from 'react';
 
 export const LocationContext = createContext();
 
 export const LocationProvider = ({ children }) => {
   const [userLocation, setUserLocation] = useState('');
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [activeTab, setActiveTab] = useState('DELIVERY');
+  const [activeTab, setActiveTab] = useState('');
   const [orderDetails, setOrderDetails] = useState(null);
 
   // NEW: Track if the user has initialized the order flow

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import DealsView from "./DealsView"; // Importing your existing modal
+import DealsView from "../Menu/Dealsview"; // Importing your existing modal
 
 // REDUX IMPORTS ADDED HERE
 import { useDispatch, useSelector } from "react-redux";

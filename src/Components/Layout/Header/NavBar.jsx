@@ -1,19 +1,19 @@
 // src/Components/Header/NavBar.jsx
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";  //navigate to different pages without reloading
 
-import kfcLogo from "../../assets/nav/kfchome.svg";
-import bucket from "../../assets/nav/bucket.svg";
-import account from "../../assets/nav/AccountIcon.webp";
+import kfcLogo from "../../../assets/nav/kfchome.svg";
+import bucket from "../../../assets/nav/bucket.svg";
+import account from "../../../assets/nav/AccountIcon.webp";
 // Add to your existing Redux imports at the top
 import { useSelector, useDispatch } from "react-redux";
-import { logout } from "../../redux/authSlice";
+import { logout } from "../../../redux/authSlice";
 
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const dispatch = useDispatch();
-  const user = useSelector((state) => state.auth.user);
+  const dispatch = useDispatch(); // Initialize the Redux dispatch function
+  const user = useSelector((state) => state.auth.user); // Get the logged-in user from Redux state (user:santa)
 
   // Added logic to calculate total items from Redux store
   const cartItems = useSelector((state) => state.cart.items);
@@ -28,22 +28,22 @@ const NavBar = () => {
           {/* LEFT — Hamburger (mobile) + Logo + Nav links */}
 
           <div className="relative flex items-center justify-center md:justify-start gap-5 w-full">
-            {/* Mobile hamburger */}
+            {/* Mobile hamburger  button*/}
             <button
               className="absolute left-0 md:hidden flex flex-col justify-center gap-1 w-8 h-8"
               onClick={() => setMenuOpen(!menuOpen)}
               aria-label="Toggle menu"
-            >
+            >                                                
               <span
-                className={`block w-6 h-0.5 bg-gray-800 transition-all duration-300 origin-center ${menuOpen ? "rotate-45 translate-y-2" : ""}`}
+                className={`block w-6 h-0.5 bg-gray-800 transition-all duration-300 origin-center ${menuOpen ? "rotate-45 translate-y-2" : ""}`} //become\
               />
               <span
                 className={`block w-6 h-0.5 bg-gray-800 transition-all duration-300 ${menuOpen ? "opacity-0 scale-x-0" : ""}`}
               />
               <span
-                className={`block w-6 h-0.5 bg-gray-800 transition-all duration-300 origin-center ${menuOpen ? "-rotate-45 -translate-y-1" : ""}`}
+                className={`block w-6 h-0.5 bg-gray-800 transition-all duration-300 origin-center ${menuOpen ? "-rotate-45 -translate-y-1" : ""}`} //become/
               />
-            </button>
+            </button>  {/*3 bars that transform into an X when opened*/}
 
             {/* KFC Logo — links to home */}
             <Link to="/" className="flex-shrink-0 ">
@@ -78,7 +78,7 @@ const NavBar = () => {
                 <img src={account} alt="Profile image" className="h-5 w-7" />
                 <span className="text-gray-900 font-bold text-[14px] whitespace-nowrap">
                   Hi, {user.name.split(' ')[0]}
-                </span>
+                </span>                {/* santhosh kumar,split as santhosh ,kumar and only 0 index */}
                 
                 {/* THE FIX: We use 'pt-2' (padding) on the outer wrapper to create an invisible hover bridge, 
                   and put the white background on the inner div! 
@@ -90,7 +90,7 @@ const NavBar = () => {
                        className="text-sm font-bold text-[#e4002b] hover:text-black whitespace-nowrap px-4 py-2 w-full text-left rounded hover:bg-gray-50 transition-colors"
                      >
                        Log Out
-                     </button>
+                     </button>   {/* onclick dispatch logout,and sign in button appears */}
                    </div>
                 </div>
               </div>
@@ -126,7 +126,7 @@ const NavBar = () => {
                 {totalItemCount > 0 && (
                   <span className="absolute inset-0 flex items-center justify-center font-bold text-gray-900 text-base pt-1">
                     {totalItemCount}
-                  </span>
+                  </span> // Display the total item count in the cart
                 )}
               </div>
             </Link>

@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { LocationContext } from '../Content/LocationContext'; 
+import { LocationContext } from '../../../Context/LocationContext'; 
 
 const TopLocationBar = () => {
   // We ONLY need setIsModalOpen to trigger the popup. 

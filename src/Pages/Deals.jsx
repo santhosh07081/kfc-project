@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import FixedLocationBar from "../Content/FixedLocationBar";
-import DealsView from "./DealsView";
+import FixedLocationBar from "../Components/Layout/Header/FixedLocationBar";
+import DealsView from "../Components/Menu/Dealsview"; // Modal component to show offer details
 
 // REDUX IMPORTS
-import { useDispatch, useSelector } from 'react-redux';
-import { applyOffer } from '../../redux/cartSlice'; // Adjust path if necessary
+import { useDispatch, useSelector } from "react-redux";
+import { applyOffer } from "../redux/cartSlice"; // Adjust path if necessary
 
 const Deals = () => {
   const [offers, setOffers] = useState([]);
@@ -65,10 +65,9 @@ const Deals = () => {
   return (
     <div className="w-full min-h-screen bg-gray-50 pb-12 font-sans">
       {/* Full-width Location Bar */}
-      
-        <FixedLocationBar  />
-        
-      
+
+      <FixedLocationBar />
+
       {/* Top Banner */}
       <div
         className="relative w-full h-48 md:h-64 bg-cover bg-center flex items-center justify-center"
@@ -141,9 +140,9 @@ const Deals = () => {
                     >
                       View Details
                     </button>
-                    
+
                     {/* REDUX APPLY OFFER BUTTON */}
-                    <button 
+                    <button
                       onClick={() => dispatch(applyOffer(offer))}
                       disabled={isApplied}
                       className="w-32 bg-black hover:bg-gray-800 text-white rounded-full py-2.5 text-sm font-bold transition-colors disabled:opacity-50 disabled:cursor-not-allowed"

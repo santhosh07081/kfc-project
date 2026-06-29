@@ -2,8 +2,8 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { login } from "../../redux/authSlice"; 
-import kfclogo from "../../assets/nav/kfchome.svg";
+import { login } from "../redux/authSlice"; 
+import kfclogo from "../assets/nav/kfchome.svg";
 
 const SignIn = () => {
   const [step, setStep] = useState(1); 

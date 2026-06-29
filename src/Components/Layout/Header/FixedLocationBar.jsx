@@ -1,11 +1,11 @@
 import React, { useContext } from 'react';
-import { LocationContext } from './LocationContext';
+import { LocationContext } from '../../../Context/LocationContext';
 
 const FixedLocationBar = () => {
   const { userLocation, setIsModalOpen, activeTab, orderDetails } = useContext(LocationContext);
 
   const getLocationText = () => {
-    const tab = activeTab?.toUpperCase(); 
+    const tab = activeTab?.toUpperCase();    // Ensure tab is in uppercase for comparison
     if (tab === 'DELIVERY') return 'Delivery to: ';
     if (tab === 'PICK UP') return 'Pick Up at: ';
     if (tab === 'DINE IN') return 'Dine In at: ';
@@ -19,9 +19,9 @@ const FixedLocationBar = () => {
           <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
         </svg>
         <span>
-          {getLocationText()} <span className="font-bold">{userLocation || 'Select Location'}</span>
+          {getLocationText()} <span className="font-bold">{userLocation || 'Select Location'}</span>  {/* 1st span selectmode,2nd select location */}
         </span>
-      </div>
+      </div> 
 
       {/* TIME: reads from orderDetails if available, else shows ASAP */}
       <div className="flex items-center gap-2 text-white text-sm font-medium tracking-wide">

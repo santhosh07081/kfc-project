@@ -1,9 +1,10 @@
-import React, { useContext } from 'react';
-import { LocationContext } from './LocationContext'; // Adjust path as needed
+import React, { useContext } from "react";
+import { LocationContext } from "../../Context/LocationContext"; // Adjust path as needed
 
 const OrderSelector = () => {
-  const { activeTab, setActiveTab, orderDetails, setOrderDetails } = useContext(LocationContext);
-  const tabs = ['DELIVERY', 'PICK UP', 'DINE IN'];
+  const { activeTab, setActiveTab, orderDetails, setOrderDetails } =
+    useContext(LocationContext);
+  const tabs = ["DELIVERY", "PICK UP", "DINE IN"];
 
   const handleTabClick = (tab) => {
     setActiveTab(tab);
@@ -32,8 +33,8 @@ const OrderSelector = () => {
             onClick={() => handleTabClick(tab)}
             className={`cursor-pointer flex-1 flex justify-center items-center px-2 h-10 rounded-full md:text-lg font-bebas transition-colors duration-200 ${
               activeTab === tab
-                ? 'bg-[#e4002b] text-white shadow-sm'
-                : 'bg-transparent text-gray-800 hover:text-black'
+                ? "bg-[#e4002b] text-white shadow-sm"
+                : "bg-transparent text-gray-800 hover:text-black"
             }`}
           >
             {tab}

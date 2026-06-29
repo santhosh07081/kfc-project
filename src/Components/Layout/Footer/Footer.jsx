@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom"; // Kept this for your main KFC Logo link
-import kfcFooter from "../../assets/foot/kfcfooter.webp";
-import googleplay from "../../assets/foot/googleplay.webp";
-import apple from "../../assets/foot/apple.webp";
-import phoneImg from "../../assets/foot/phoneapp.webp";
+import kfcFooter from "../../../assets/foot/kfcfooter.webp";
+import googleplay from "../../../assets/foot/googleplay.webp";
+import apple from "../../../assets/foot/apple.webp";
+import phoneImg from "../../../assets/foot/phoneapp.webp";
 
 const footerLinks = [
   {

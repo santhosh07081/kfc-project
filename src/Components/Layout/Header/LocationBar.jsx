@@ -1,5 +1,5 @@
 import React, { useState, useContext, useEffect } from 'react';
-import { LocationContext } from '../Content/LocationContext'; 
+import { LocationContext } from '../../../Context/LocationContext'; 
 
 const LocationModal = () => {
   const { 
@@ -33,8 +33,8 @@ const LocationModal = () => {
   const generateTimeSlots = () => {
     const slots = ['ASAP'];
     for (let i = 11; i <= 22; i++) {
-      const ampm = i >= 12 ? 'PM' : 'AM';
-      const hour = i > 12 ? i - 12 : i;
+      const ampm = i >= 12 ? 'PM' : 'AM'; //check am or pm
+      const hour = i > 12 ? i - 12 : i;   //convert to 12-hour format
       slots.push(`${hour}:00 ${ampm}`);
       slots.push(`${hour}:30 ${ampm}`);
     }
@@ -43,7 +43,7 @@ const LocationModal = () => {
   const availableTimes = generateTimeSlots();
 
   useEffect(() => {
-    if (isModalOpen) {
+    if (isModalOpen) {                            
       setLocalRestaurant(userLocation || ''); 
       setOrderType(activeTab || 'DINE IN'); 
       setActiveView('main');
@@ -56,19 +56,19 @@ const LocationModal = () => {
   ];
 
   const filteredCities = cities.filter((city) =>
-    city.toLowerCase().includes(searchInput.toLowerCase())
+    city.toLowerCase().includes(searchInput.toLowerCase()) // Added case-insensitive search
   );
 
-  const handleConfirmFinalOrder = () => {
+  const handleConfirmFinalOrder = () => {   //Validate that a location is selected before confirming
     if (!localRestaurant) {
       alert("Please select a city first!");
       return;
     }
 
-    setUserLocation(localRestaurant);
+    setUserLocation(localRestaurant);  //save selected city globally
     
-    const selectedDateObj = availableDates.find(d => d.id === orderDate);
-    const displayDate = selectedDateObj ? selectedDateObj.short : orderDate;
+    const selectedDateObj = availableDates.find(d => d.id === orderDate); 
+    const displayDate = selectedDateObj ? selectedDateObj.short : orderDate; 
     const normalizedType = orderType.toUpperCase();
 
     setOrderDetails({
@@ -78,7 +78,7 @@ const LocationModal = () => {
       time: orderTime
     });
 
-    setActiveTab(normalizedType);
+    setActiveTab(normalizedType);  //Updates selected tab globally.
     
     // NEW: Mark order as started so the banner stays hidden
     setIsOrderStarted(true); 
@@ -86,33 +86,34 @@ const LocationModal = () => {
     setIsModalOpen(false);
   };
 
-  const handleSelectLocation = (city) => {
+  const handleSelectLocation = (city) => { // When user selects a city from the list
     setLocalRestaurant(city);
     setActiveView('main');
-    setSearchInput('');
+    setSearchInput(''); // Clear search input for next time modal opens
   };
 
   const handleSelectOrderType = (type) => {
-    setOrderType(type);
+    setOrderType(type);  
     setActiveView('main');
   };
 
-  if (!isModalOpen) return null;
+  if (!isModalOpen) return null; //render nothing
 
   return (
     <div className="fixed inset-0 bg-black/60 z-50 flex justify-center items-center animate-fadeIn">
       <div className="bg-[#faf9f6] rounded-lg w-[90%] max-w-2xl shadow-2xl relative min-h-[400px] flex flex-col">
         
         {/* Header */}
-        <div className="flex justify-between items-center p-4 border-b border-gray-200 bg-white rounded-t-lg">
+        <div className="flex justify-between items-center p-4 border-b border-gray-200 bg-white rounded-t-lg"> 
+         {/* back button*/}
           {activeView !== 'main' ? (
-            <button onClick={() => setActiveView('main')} className="text-gray-500 hover:text-black font-bold text-xl px-2">
+            <button onClick={() => setActiveView('main')} className="text-gray-500 hover:text-black font-bold text-2xl px-2">
               &#8249;
             </button>
           ) : (
             <div className="w-8"></div>
           )}
-          <h2 className="text-xl font-black uppercase text-black tracking-wide m-0">
+          <h2 className="text-xl font-black uppercase text-black tracking-wide m-0"> 
             {activeView === 'main' ? 'Schedule Order' : activeView === 'type' ? 'Select Order Type' : 'Select Your Location'}
           </h2>
           <button onClick={() => setIsModalOpen(false)} className="text-gray-500 hover:text-black font-bold text-xl px-2">
@@ -121,11 +122,11 @@ const LocationModal = () => {
         </div>
 
         {/* Body */}
-        <div className="p-6 flex-1 bg-[#faf9f6]">
+        <div className="p-6 flex-1 bg-[#faf9f6]">  {/* flex-1 ensures it takes up remaining space  */}
           
           {/* VIEW 1: MAIN */}
           {activeView === 'main' && (
-            <div className="space-y-8 max-w-lg mx-auto">
+            <div className="space-y-8 max-w-lg mx-auto"> {/* space-y-8 adds vertical spacing between sections */}
               <div>
                 <h3 className="text-sm font-bold uppercase mb-2">Order Type</h3>
                 <div className="flex justify-between items-center border-b border-gray-300 pb-2">
@@ -138,8 +139,8 @@ const LocationModal = () => {
 
               <div>
                 <h3 className="text-sm font-bold uppercase mb-2">Your KFC Restaurant</h3>
-                <div className="flex justify-between items-center border-b border-gray-300 pb-2">
-                  <span className={`text-gray-800 ${!localRestaurant ? 'italic text-gray-500' : ''}`}>
+                <div className="flex justify-between items-center border-b border-gray-300 pb-2"> 
+                  <span className={`text-gray-800 ${!localRestaurant ? 'italic text-gray-500' : ''}`}> {/* when no restaurant is selected */}
                     {localRestaurant || "Select your city"}
                   </span>
                   <button onClick={() => setActiveView('location')} className="text-sm font-semibold underline cursor-pointer hover:text-red-600">
@@ -155,11 +156,11 @@ const LocationModal = () => {
                     <label className="text-xs text-gray-500 block mb-1">Date</label>
                     <select 
                       value={orderDate}
-                      onChange={(e) => setOrderDate(e.target.value)}
+                      onChange={(e) => setOrderDate(e.target.value)}  
                       className="w-full bg-transparent focus:outline-none cursor-pointer text-gray-800 font-medium"
                     >
                       {availableDates.map(date => (
-                        <option key={date.id} value={date.id}>{date.label}</option>
+                        <option key={date.id} value={date.id}>{date.label}</option>    /* userselect option today,then e.target.value=today*/
                       ))}
                     </select>
                   </div>
